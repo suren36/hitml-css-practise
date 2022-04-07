@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form demo</title>
+</head>
+<body>
+	<h1>Register</h1>
+<form>
+	<label for="First">First Name:</label>
+	<input name="first" id="First" type="text" placeholder="john" required>
+
+	<label for="last">Last Name:</label>
+	<input name="last" id="last" type="text" placeholder="smith" required>
+	
+	
+<div>
+	
+		
+		<label for="male">Male</label>
+		<input id="male" name="gender" type="radio" value="male">
+		<label for="female">Female</label>
+		<input id="female" name="gender" type="radio" valure="female">
+
+	</div>
+
+
+	<div>
+
+	<label>
+		Email:
+		<input name="email" type="email" placeholder="your email" required>
+	</label>
+
+	<label>password:
+		<input name="password" type="password" pattern=".{5,10}"required title="5 to 10 characters">
+	</label>
+	</div>
+	<div>
+		<label>Birthday:</label>
+	<select>
+		<option>year</option>
+		<option>2000</option>
+		<option>3000</option>
+		
+</div><label>
+	Birthday:
+	</select>
+
+	<select>
+		<option>month</option>
+		<option>jan</option>
+			
+		<option>feb</option>
+	</select>
+	<select>
+		<option>day</option>
+		<option>01</option>
+			
+		<option>02</option>
+	</select>
+</label>
+<div>
+	<label for="aggred">I aggre to term and condition:</label>
+	<input id="aggred" name="aggred" type="checkbox">
+</div>
+	<input type="submit">
+
+
+
+</form>
+</body>
+</html>
